@@ -24,8 +24,8 @@ class LoginController extends Controller
         }else{
             return Redirect::to("login")->withSuccess('Oppes! You have entered invalid credentials');
         }        
-        // echo "<pre>";
-        // print_r($request->all());
-        // die('here');
+        echo "<pre>";
+        print_r($request->all());
+        die('here');
     }
 }
